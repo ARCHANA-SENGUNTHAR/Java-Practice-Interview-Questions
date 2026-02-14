@@ -1,6 +1,13 @@
 # === Build outputs ===
 /bin/                # top-level bin folder with .class files
-QuestionsSetOne/out/ # IntelliJ build output
+/out/
+/QuestionsSetOne/out/
+QuestionsSetOne/out/production/
+
+# IDE configs
+QuestionsSetOne/.idea/
+*.iml
+.vscode/
 
 # === IntelliJ IDEA ===
 QuestionsSetOne/.idea/

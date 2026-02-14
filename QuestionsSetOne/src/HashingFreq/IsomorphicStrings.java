@@ -10,7 +10,7 @@ public class IsomorphicStrings {
             char c1 = s.charAt(i);
             char c2 = t.charAt(i);
             if(hm.containsKey(c1)){
-                if(hm.get(c1)!=c2)return false;
+                if(!hm.get(c1).equals(c2))return false;
             }
             else{
                 if(hm.containsValue(c2))return false;
